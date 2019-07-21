@@ -1,17 +1,17 @@
-package firstpackage;
+package Firstmaven.Firstmavenclass;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Firstclass {
+public class FirstclassTest {
 	
-	public static void main(String[] args) {
+	@Test
+	public void test()
+	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium worksace\\chromedriver_win32\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.google.com/");
-		d.manage().window().maximize();
-		d.close();
 	}
-	
 
 }
