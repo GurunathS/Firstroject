@@ -9,6 +9,7 @@ public class Firstclass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium worksace\\chromedriver_win32\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
 		d.get("https://www.google.com/");
+		d.manage().window().maximize();
 	}
 	
 
