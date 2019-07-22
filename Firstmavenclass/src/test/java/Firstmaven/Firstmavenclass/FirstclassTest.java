@@ -11,7 +11,8 @@ public class FirstclassTest {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Selenium worksace\\chromedriver_win32\\chromedriver.exe");
 		WebDriver d = new ChromeDriver();
-		d.get("https://www.google.com/");
+		d.get("https://phptravels.com/demo/");
+		d.manage().window().maximize();
 	}
 
 }
